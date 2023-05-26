@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "axios": "^1.4.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "follow-redirects": "^1.15.2",
+    "form-data": "^4.0.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "proxy-from-env": "^1.1.0"
+  },
   "scripts": {
-    "server":"json-server --watch db.json --port9090",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server":"json-server --watch db.json --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/Shoaib20-1998/Practice_json_server/issues"
   },
-  "homepage": "https://github.com/Shoaib20-1998/Practice_json_server#readme",
-  "dependencies": {
-    "axios": "^1.4.0"
-  }
+  "homepage": "https://github.com/Shoaib20-1998/Practice_json_server#readme"
 }
