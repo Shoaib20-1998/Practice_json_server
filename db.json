@@ -127,11 +127,39 @@
   "forum": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "tanuja123",
+      "question_title": "Filtering and sorting",
+      "question_disc":"Filtering and sorting Date input field or automatically generate current date in J",
+      "language":"html",
+      "date":"blah"
+    },
+    {
+      "id": 1,
+      "username": "manuja123",
+      "question_title": " sorting",
+      "question_disc":"Filtering and sorting Date input field or automatically generate current date in J",
+      "language":"css",
+      "date":"blah"
+    },
+    {
+      "id": 1,
+      "username": "sapna87",
+      "question_title": " error facing",
+      "question_disc":"Filtering and sorting Date input field or automatically generate current date in J",
+      "language":"c++",
+      "date":"blah"
+    },
+    {
+      "id": 1,
+      "username": "arshhi00",
+      "question_title": " refrence error",
+      "question_disc":"Filtering and sorting Date input field or automatically generate current date in J",
+      "language":"r++",
+      "date":"blah"
     }
   ],
   "answer": [{
     "name": "typicode"
   }]
 }
+
